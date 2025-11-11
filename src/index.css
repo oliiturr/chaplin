@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root{
+--chaplin-bg: #0f1724; /* very dark blue/gray */
+--chaplin-card: #111827;
+--chaplin-accent: #c49f2f; /* dorado */
+--chaplin-cream: #f5ead6;
+--chaplin-accent-2: #7a1f24; /* burdeos */
+}
+
+
+body{
+@apply bg-[color:var(--chaplin-bg)] text-[color:var(--chaplin-cream)];
+font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+
+/* Botones dorados */
+.btn-chaplin{
+@apply px-4 py-2 rounded-2xl font-semibold shadow-md;
+background: linear-gradient(180deg, rgba(196,159,47,0.95), rgba(145,113,33,0.95));
+color: var(--chaplin-bg);
+}
+
+
+.card-chaplin{
+background: linear-gradient(180deg, rgba(17,24,39,0.75), rgba(10,14,22,0.75));
+border: 1px solid rgba(196,159,47,0.12);
+}
+
+.font-bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
